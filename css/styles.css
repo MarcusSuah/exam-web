@@ -306,7 +306,7 @@ nav ul li a:hover::after {
 .services-list div a {
     text-decoration: none;
     color: #fff;
-    font-size: 12px;
+    font-size: 20px;
     margin-bottom: 20px;
     margin-top: 25px;
     display: inline-block;
@@ -516,7 +516,7 @@ nav .fas {
 
     nav .fas {
         display: block;
-        font-size: 25px;
+        font-size: 18px;
     }
     
 
@@ -527,11 +527,13 @@ nav .fas {
         top: 0;
         right: -200;
         width: 150px;
-        height: 50vh;
+        height: 8vh;
         padding-top: 30px;
         z-index: 1;
         opacity: 1;
         transition: 0.5s;
+        display: contents;
+        text-align: justify;
     }
 
     nav ul li {
