@@ -240,13 +240,16 @@ nav ul li a:hover::after {
     padding: 0 80px;
     font-size: 20px;
 }
-.project-list,b {
+.project-list, b {
    color: #fff;
-   padding: 80px 20px; 
-   text-align: justify;
+   padding: 20px 10px; 
+   text-align: center;
    justify-content: left;
-   margin: 30px;
+   margin: 25px;
    list-style: none;
+   width: fit-content;
+   display: flex;
+  
  
 }
  
@@ -491,7 +494,18 @@ form .btn2 {
     padding: 8px;
     font-size: 15px;
 }
+.tools li{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    position: relative;
+    list-style: none;
+    padding-top: 60px;
+    padding-left: 80px;
+    line-height: 2px;
+    width: 30%;
 
+}
 /* -----------css media query  -----------*/
 nav .fas {
     display: none;
@@ -565,7 +579,7 @@ nav .fas {
         flex-basis: 100%;
     }
 
-    .about-col-1 {
+    .aoout-col-1 {
         margin-bottom: 30px;
     }
 
